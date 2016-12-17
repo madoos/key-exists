@@ -1,0 +1,38 @@
+{
+  "name":  "madoos-key-exists",
+  "version": "0.0.1",
+  "description": "Check if the key of an object exists",
+  "main": "index.js",
+  "scripts": {
+    "test:linter:show": "./bin/test/linter-show",
+    "test:unit:show": "./bin/test/unit-show",
+    "test:cover:show": "./bin/test/cover-show",
+    "test:linter:report": "./bin/test/linter-report",
+    "test:unit:report": "./bin/test/unit-report",
+    "test:cover:report": "./bin/test/cover-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madoos/key-exists.git"
+  },
+  
+  "keywords": [
+    "lib"
+  ],
+   "author": {
+    "name": "Maurice Ronet Dominguez",
+    "email": "maurice.ronet.dominguez@gmail.com",
+    "url": "https://github.com/madoos/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madoos/key-exists.git/issues"
+  },
+  "homepage": "https://github.com/madoos/key-exists.git#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  }
+}
