@@ -1,7 +1,7 @@
 {
   "name": "madoos-key-exists",
   "version": "0.0.1",
-  "description": "Check if the key of an object exists",
+  "description": "Check if the key of an object or array exists",
   "main": "index.js",
   "scripts": {
     "test:linter:show": "./bin/test/linter-show",
