@@ -1,5 +1,5 @@
 {
-  "name":  "madoos-key-exists",
+  "name": "madoos-key-exists",
   "version": "0.0.1",
   "description": "Check if the key of an object exists",
   "main": "index.js",
@@ -15,11 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/madoos/key-exists.git"
   },
-  
   "keywords": [
     "lib"
   ],
-   "author": {
+  "author": {
     "name": "Maurice Ronet Dominguez",
     "email": "maurice.ronet.dominguez@gmail.com",
     "url": "https://github.com/madoos/"
@@ -34,5 +33,8 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "madoos-type": "0.0.5"
   }
 }
