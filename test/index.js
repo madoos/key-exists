@@ -10,13 +10,13 @@ describe('Import keyExists', function () {
   })
 })
 
-describe('To check if a key ".a.b.c[0]" exists', function () {
+describe('To check if a key "b.c[0]" exists', function () {
   it('should to be a true', function () {
       const test = {
         b:{
           c: [{}]
         }
       }
-      expect(keyExists(test, '.a.b.c[0]')).to.be.true
+      expect(keyExists(test, 'b.c[0]')).to.be.true
   })
 })
