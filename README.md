@@ -24,3 +24,10 @@ In your project:
  keyExists(arr, '[2][0]') // => true
 
 ```
+## Run test
+
+    npm run test:unit:show
+
+## Run cover test
+
+    npm run test:cover:show
