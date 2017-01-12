@@ -2,6 +2,8 @@
 
 Check if the key of an object or array exists
 
+[![Build Status](https://travis-ci.org/madoos/key-exists.svg?branch=master)](https://travis-ci.org/madoos/key-exists)
+
 ## Getting Started
 
 To install:
